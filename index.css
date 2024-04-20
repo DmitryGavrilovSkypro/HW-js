@@ -1,0 +1,140 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+.img {
+    width: 100%;
+  }
+body {
+    width: 1440px;
+}
+.top{
+    background: url(background\ hw-1.jpg);
+    font-family: "Montserrat", sans-serif;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1440px;
+    height: 1024px;
+}
+ 
+.top__info {
+    padding-left: 120px;
+}
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+.title {
+    padding-top: 217px;
+    padding-bottom: 32px;
+    width: 788.78px;
+    height: 125.01px;
+    left: 120.22px;
+    top: 217.1px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.title:hover{
+    text-decoration: underline;
+    text-decoration-color: rgba(68, 210, 255, 1);
+    text-decoration-thickness: 4px;
+}
+.title_text {
+    padding-bottom: 44px;
+    width: 481px;
+    height: 64px;
+    left: 120.22px;
+    top: 374.11px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.title_text:hover{
+    text-decoration: underline;
+    text-decoration-color: rgba(68, 210, 255, 1);
+    text-decoration-thickness: 4px;
+}
+.butten {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    width: 234.06px;
+    height: 48.6px;
+    left: 120px;
+    top: 482.11px;
+    background: #9C0332;
+    border-radius: 30px;
+}
+.butten:hover{
+    border-color:rgba(68, 210, 255, 1);
+    border-width: 4px;
+    text-decoration: underline;
+    text-decoration-color: rgba(68, 210, 255, 1);
+    text-decoration-thickness: 4px;
+}
+.conteiner_game1 {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.text_game {
+    position: absolute;
+    bottom:32px;
+    left: 32px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.text_game:hover {
+    text-decoration: underline;
+    text-decoration-color: rgba(68, 210, 255, 1);
+    text-decoration-thickness: 4px;
+    
+}
+.games {
+    background: url(background\ buttum.jpg);
+    font-family: "Montserrat", sans-serif;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1440px;
+    height: 556px;
+}
+.games__product {
+    padding-top: 128px;
+    padding-left: 120px;
+    display: flex;
+    gap: 32px; 
+}
+.games__product_game1 {
+    border-radius: 20px;
+
+}
+.games__product_game2 {
+    border-radius: 20px;
+
+}
+.games__product_game3 { 
+    border-radius: 20px;
+
+}
+
